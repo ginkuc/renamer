@@ -1,11 +1,7 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Renamer;
 
-namespace WinFormsCoreApp
+namespace Renamer
 {
     static class Program
     {
