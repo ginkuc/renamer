@@ -1,6 +1,4 @@
-﻿using Renamer.Properties;
-
-namespace Renamer
+﻿namespace Renamer
 {
     partial class Form1
     {
@@ -44,49 +42,55 @@ namespace Renamer
             // 
             // sourceTextBox
             // 
-            this.sourceTextBox.Location = new System.Drawing.Point(31, 39);
+            this.sourceTextBox.Location = new System.Drawing.Point(36, 45);
+            this.sourceTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.sourceTextBox.Name = "sourceTextBox";
-            this.sourceTextBox.Size = new System.Drawing.Size(345, 20);
+            this.sourceTextBox.Size = new System.Drawing.Size(402, 23);
             this.sourceTextBox.TabIndex = 10;
             // 
             // sourceLabel
             // 
             this.sourceLabel.AutoSize = true;
-            this.sourceLabel.Location = new System.Drawing.Point(28, 9);
+            this.sourceLabel.Location = new System.Drawing.Point(33, 10);
+            this.sourceLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.sourceLabel.Name = "sourceLabel";
-            this.sourceLabel.Size = new System.Drawing.Size(44, 13);
+            this.sourceLabel.Size = new System.Drawing.Size(46, 15);
             this.sourceLabel.TabIndex = 0;
             this.sourceLabel.Text = "Source:";
             // 
             // patternTextBox
             // 
-            this.patternTextBox.Location = new System.Drawing.Point(31, 98);
+            this.patternTextBox.Location = new System.Drawing.Point(36, 113);
+            this.patternTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.patternTextBox.Name = "patternTextBox";
-            this.patternTextBox.Size = new System.Drawing.Size(135, 20);
+            this.patternTextBox.Size = new System.Drawing.Size(157, 23);
             this.patternTextBox.TabIndex = 20;
             // 
             // transformTextBox
             // 
-            this.transformTextBox.Location = new System.Drawing.Point(226, 98);
+            this.transformTextBox.Location = new System.Drawing.Point(264, 113);
+            this.transformTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.transformTextBox.Name = "transformTextBox";
-            this.transformTextBox.Size = new System.Drawing.Size(150, 20);
+            this.transformTextBox.Size = new System.Drawing.Size(174, 23);
             this.transformTextBox.TabIndex = 30;
             // 
             // patternLabel
             // 
             this.patternLabel.AutoSize = true;
-            this.patternLabel.Location = new System.Drawing.Point(28, 71);
+            this.patternLabel.Location = new System.Drawing.Point(33, 82);
+            this.patternLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.patternLabel.Name = "patternLabel";
-            this.patternLabel.Size = new System.Drawing.Size(44, 13);
+            this.patternLabel.Size = new System.Drawing.Size(48, 15);
             this.patternLabel.TabIndex = 0;
             this.patternLabel.Text = "Pattern:";
             // 
             // transformLabel
             // 
             this.transformLabel.AutoSize = true;
-            this.transformLabel.Location = new System.Drawing.Point(223, 71);
+            this.transformLabel.Location = new System.Drawing.Point(260, 82);
+            this.transformLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.transformLabel.Name = "transformLabel";
-            this.transformLabel.Size = new System.Drawing.Size(57, 13);
+            this.transformLabel.Size = new System.Drawing.Size(63, 15);
             this.transformLabel.TabIndex = 0;
             this.transformLabel.Text = "Transform:";
             // 
@@ -97,8 +101,9 @@ namespace Renamer
             // titleLabel
             // 
             this.titleLabel.AutoSize = true;
-            this.titleLabel.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleLabel.Location = new System.Drawing.Point(12, 129);
+            this.titleLabel.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.titleLabel.Location = new System.Drawing.Point(14, 149);
+            this.titleLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.titleLabel.Name = "titleLabel";
             this.titleLabel.Size = new System.Drawing.Size(214, 45);
             this.titleLabel.TabIndex = 6;
@@ -107,18 +112,19 @@ namespace Renamer
             // startButton
             // 
             this.startButton.Enabled = false;
-            this.startButton.Location = new System.Drawing.Point(258, 148);
+            this.startButton.Location = new System.Drawing.Point(301, 171);
+            this.startButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(117, 23);
+            this.startButton.Size = new System.Drawing.Size(136, 27);
             this.startButton.TabIndex = 40;
             this.startButton.Text = "Go";
             this.startButton.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(407, 180);
+            this.ClientSize = new System.Drawing.Size(475, 208);
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.transformLabel);
@@ -128,7 +134,8 @@ namespace Renamer
             this.Controls.Add(this.sourceLabel);
             this.Controls.Add(this.sourceTextBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = Resources.Icon;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Form1";
             this.Text = "File Renamer";
             this.ResumeLayout(false);
